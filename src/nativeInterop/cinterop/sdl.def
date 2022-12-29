@@ -1,0 +1,5 @@
+headers = SDL.h
+entryPoint = SDL_main
+
+compilerOpts.osx = -I/opt/homebrew/include/SDL2 -D_THREAD_SAFE
+linkerOpts.osx = -L/opt/homebrew/lib -lSDL2
